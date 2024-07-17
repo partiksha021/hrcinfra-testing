@@ -1,6 +1,5 @@
 {
  "custom_fields": [
-  
   {
    "_assign": null,
    "_comments": null,
@@ -12,7 +11,7 @@
    "collapsible": 0,
    "collapsible_depends_on": null,
    "columns": 0,
-   "creation": "2024-05-25 18:39:54.053990",
+   "creation": "2024-06-03 16:29:17.243626",
    "default": null,
    "depends_on": null,
    "description": null,
@@ -20,7 +19,7 @@
    "dt": "Journal Entry",
    "fetch_from": null,
    "fetch_if_empty": 0,
-   "fieldname": "custom_site",
+   "fieldname": "custom_expense_type_",
    "fieldtype": "Link",
    "hidden": 0,
    "hide_border": 0,
@@ -33,20 +32,20 @@
    "in_list_view": 0,
    "in_preview": 0,
    "in_standard_filter": 0,
-   "insert_after": "tax_withholding_category",
+   "insert_after": "custom_site",
    "is_system_generated": 0,
    "is_virtual": 0,
-   "label": "Site",
+   "label": "Expense type ",
    "length": 0,
    "link_filters": null,
    "mandatory_depends_on": null,
-   "modified": "2024-05-25 18:39:54.053990",
-   "modified_by": "abc@gmail.com",
+   "modified": "2024-06-03 16:29:17.243626",
+   "modified_by": "Administrator",
    "module": null,
-   "name": "Journal Entry-custom_site",
+   "name": "Journal Entry-custom_expense_type_",
    "no_copy": 0,
    "non_negative": 0,
-   "options": "Site",
+   "options": "Expense Type",
    "owner": "Administrator",
    "permlevel": 0,
    "precision": "",
@@ -63,7 +62,9 @@
    "translatable": 0,
    "unique": 0,
    "width": null
-  }
+  },
+  
+  
  ],
  "custom_perms": [],
  "doctype": "Journal Entry",
